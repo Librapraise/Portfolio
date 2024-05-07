@@ -37,13 +37,13 @@ const AboutPage = () => {
                             digital experiences that span industries, blending technology with intuitive design.
                         </p>          
                         <p className="text-lg">
-                            Praise's knack for crafting user-friendly interfaces captivates diverse audiences. 
+                            Praise&apos;s knack for crafting user-friendly interfaces captivates diverse audiences. 
                             By mastering frontend development, Praise transforms complex ideas into engaging digital solutions, 
                             redefining how users interact with technology.
                         </p>
                         <p className="text-lg">
                             Driven by a passion for innovation, Praise stays ahead of emerging trends, pushing the boundaries 
-                            of what's possible in frontend development. With a commitment to excellence, Praise embodies the 
+                            of what&apos;s possible in frontend development. With a commitment to excellence, Praise embodies the 
                             spirit of ingenuity in every line of code, making an impact in the ever-evolving tech world.
                         </p>
                     </div>
