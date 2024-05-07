@@ -119,21 +119,31 @@ const Navbar = () => {
         
         {/* SOCIAL */}
         <div className="hidden md:flex gap-4 ">
-            <Link href="https://github.com/Librapraise">
-                <Image src="/github.png" alt="" width={24} height={24} />
-            </Link>
-            <Link href="https://twitter.com/libracrypt">
-                <FaTwitter className="w-[24px] h-[24px]"/>
-            </Link>
-            <Link href="https://www.instagram.com/prayze26/">
-                <Image src="/instagram.png" alt="" width={24} height={24} />
-            </Link>
-            <Link href="https://web.facebook.com/profile.php?id=100073119623851">
-                <Image src="/facebook.png" alt="" width={24} height={24} />
-            </Link>
-            <Link href="https://www.linkedin.com/in/praise-alabi-7ab013236/">
-                <Image src="/linkedin.png" alt="" width={24} height={24} />
-            </Link>
+            <motion.div transition={{duration: 0.5}} whileHover={{scale: 1.2, rotate: 360,}} >
+                <Link href="https://github.com/Librapraise">
+                    <Image src="/github.png" alt="" width={24} height={24} />
+                </Link>
+            </motion.div>
+            <motion.div transition={{duration: 0.5}} whileHover={{scale: 1.2, rotate: 360,}} >
+                <Link href="https://twitter.com/libracrypt">
+                    <FaTwitter className="w-[24px] h-[24px]"/>
+                </Link>
+            </motion.div>
+            <motion.div transition={{duration: 0.5}} whileHover={{scale: 1.2, rotate: 360,}} >
+                <Link href="https://www.instagram.com/prayze26/">
+                    <Image src="/instagram.png" alt="" width={24} height={24} />
+                </Link>
+            </motion.div>
+            <motion.div transition={{duration: 0.5}} whileHover={{scale: 1.2, rotate: 360,}} >
+                <Link href="https://web.facebook.com/profile.php?id=100073119623851">
+                    <Image src="/facebook.png" alt="" width={24} height={24} />
+                </Link>
+            </motion.div>
+            <motion.div transition={{duration: 0.5}} whileHover={{scale: 1.2, rotate: 360,}} >
+                <Link href="https://www.linkedin.com/in/praise-alabi-7ab013236/">
+                    <Image src="/linkedin.png" alt="" width={24} height={24} />
+                </Link>
+            </motion.div>
         </div>
 
         <button 
