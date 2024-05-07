@@ -5,7 +5,6 @@ import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import Brain from "../components/brain";
 import { useRef } from "react";
-import { Fade } from "react-reveal";
 
 const AboutPage = () => {
 
@@ -128,7 +127,7 @@ const AboutPage = () => {
                             <div className="flex justify-between h-48">
 
                                 {/*left div*/}
-                                <Fade>
+                            
                                 <div className="w-1/3">
                                     {/*Job title*/}
                                     <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
@@ -144,7 +143,7 @@ const AboutPage = () => {
                                     {/*Job company*/}
                                     <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Zuri Team</div>
                                 </div>
-                                </Fade>
+                                
 
                                 {/*center div*/}
                                 <div className="w-1/6 flex justify-center">
@@ -175,7 +174,7 @@ const AboutPage = () => {
                                 </div>
 
                                 {/*right div*/}
-                                <Fade>
+                            
                                 <div className="w-1/3">
                                     {/*Job title*/}
                                     <div className="bg-white p-3 font-semibold rounded-b-lg rounded-tr-lg">
@@ -191,14 +190,14 @@ const AboutPage = () => {
                                     {/*Job company*/}
                                     <div className="p-1 rounded bg-white text-sm font-semibold w-fit">Freelancing</div>
                                 </div>
-                                </Fade>
+                                
                             </div>
                             
                             {/*Experience list item*/}
                             <div className="flex justify-between h-48">
 
                                 {/*left div*/}
-                                <Fade>
+                            
                                 <div className="w-1/3">
                                     {/*Job title*/}
                                     <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
@@ -213,7 +212,7 @@ const AboutPage = () => {
                                     {/*Job company*/}
                                     <div className="p-1 rounded bg-white text-sm font-semibold w-fit">SozoRock Tech Inc.</div>
                                 </div>
-                                </Fade>
+                                
 
                                 {/*center div*/}
                                 <div className="w-1/6 flex justify-center">

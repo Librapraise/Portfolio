@@ -4,7 +4,6 @@ import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { Zoom } from "react-reveal";
 
 const projects = [
     {
@@ -56,11 +55,9 @@ const PortfolioPage = () => {
             transition={{ duration: 0.5 }}
         >
             <div className="h-[600vh] relative" ref={ref}>
-                <Zoom>
                 <div className="w-screen capitalize flex items-center justify-center h-[calc(100vh-96px)] text-7xl md:text-6xl xl:text-8xl text-center">
                     my works
                 </div>
-                </Zoom>
 
                 <div className="sticky flex top-0 h-screen gap-4 items-center overflow-hidden">
                     <motion.div style={{ x }} className="flex">

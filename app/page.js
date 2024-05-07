@@ -4,7 +4,6 @@
     import Image from "next/image";
     import { motion } from "framer-motion";
     import Link from "next/link";
-    import { Slide } from "react-reveal";
     import { LuExternalLink } from "react-icons/lu";
 
 
@@ -17,13 +16,11 @@
             transition={{ duration: 0.5 }}
         >
             <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
-                <Slide left>
                     <div className="h-1/2 lg:h-full lg:w-1/2 relative">
                         <Image src="/hero.png" alt="" fill className="object-contain" />
                     </div>
-                </Slide>
             
-                <Slide right>
+
                     <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-4 items-center justify-center my-6 lg:my-0">
                 
                         <h1 className="text-[26px] md:text-4xl font-bold">
@@ -51,7 +48,6 @@
                             </Link>
                         </div>
                     </div>
-                </Slide>
             </div>
         </motion.div>
     );
