@@ -162,7 +162,7 @@ const Navbar = () => {
             className="md:hidden absolute top-0 left-0 w-screen h-screen flex flex-col text-white gap-6 text-2xl z-30 bg-black bg-opacity-90 backdrop-blur-md px-5 py-[80px]"
         >
             {links.map((link) => (
-                <motion.div variants={linkVariant} key={link.title} className="uppercase bg-white w-[150px] p-2 rounded-lg text-black font-semibold hover:ease-in hover:text-white hover:bg-[coral]">
+                <motion.div variants={linkVariant} key={link.title} className="uppercase font-semibold hover:ease-in hover:text-[coral]">
                     <Link
                         href={link.path}
                         onClick={() => setOpen(!open)}  
@@ -176,7 +176,7 @@ const Navbar = () => {
 
             {/* MOBILE SOCIAL */}
             <div 
-                className="md:hidden flex gap-4 "
+                className="md:hidden flex gap-4"
             >
                 <motion.div variants={iconVariant} initial={{opacity: 0}} transition={{duration: 0.5}} whileHover={{scale: 1.2, rotate: 360,}} >
                     <Link href="https://github.com/Librapraise" target="_blank" className="w-10 h-10 rounded-full bg-white flex items-center justify-center">
