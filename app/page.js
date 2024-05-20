@@ -35,7 +35,7 @@
                         </p>
                     
                         <div className="w-full flex gap-4">
-                            <Link href="/Praise resume.pdf" target="_blank">
+                            <Link href="/Praise CV.pdf" target="_blank">
                             <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white flex items-center">
                                 Resume
                                 <LuExternalLink className="w-6 ml-2"/>
